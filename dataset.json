@@ -1,0 +1,82 @@
+[
+    {
+        "ticket_id": "T1770215542",
+        "summary": "Changes already on staging",
+        "description": "Staging had uncommitted files upon opening, is this ok to branch off or is this unintended? Fetching Origin does not change this.",
+        "branch": "Staging",
+        "course": "developer",
+        "category": "Git",
+        "issue_tag": "staging_uncommitted_files",
+        "duplicate": false
+    },
+    {
+        "ticket_id": "T1770383907",
+        "summary": "Having to save new level and sometimes instance to quit unreal",
+        "description": "Cant Exit unreal without saving a new map and or instance the images provided show this issue. Any further questions contact me.",
+        "branch": "Anna-GamepadMaking/Testing",
+        "course": "designer",
+        "category": "Unreal",
+        "issue_tag": "cannot_exit_without_saving",
+        "duplicate": false
+    },
+    {
+        "ticket_id": "T1771510667",
+        "summary": "Git LFS full",
+        "description": "Clone succeeded, but checkout failed because the repository exceeded its Git LFS budget.",
+        "branch": "All branches",
+        "course": "developer",
+        "category": "Git",
+        "issue_tag": "git_lfs_budget_exceeded",
+        "duplicate": false
+    },
+    {
+        "ticket_id": "T1771609872",
+        "summary": "Github Branch Upload",
+        "description": "User wants someone to double check whether their first branch upload looks correct.",
+        "branch": "origin/feature/ui/tutorial",
+        "course": "designer",
+        "category": "Git",
+        "issue_tag": "branch_upload_confirmation",
+        "duplicate": false
+    },
+    {
+        "ticket_id": "T1772376160",
+        "summary": "My github isnt working",
+        "description": "Files appear changed in staging even though no work was done. Cannot discard, switch branch, or pull origins due to those changes.",
+        "branch": "Staging and week2/blockout/brooklyn",
+        "course": "designer",
+        "category": "Git",
+        "issue_tag": "staging_changed_files_error",
+        "duplicate": true
+    },
+    {
+        "ticket_id": "T1772798053",
+        "summary": "Supposed lock file on github making it impossible to fetch or push anything",
+        "description": "Fetching is impossible because a lock file already exists in the repository.",
+        "branch": "All",
+        "course": "designer",
+        "category": "Git",
+        "issue_tag": "lock_file_fetch_error",
+        "duplicate": true
+    },
+    {
+        "ticket_id": "T1772810736",
+        "summary": "Enhanced Inputs do not Work + Player Spawns more Cards than Expected",
+        "description": "Enhanced Inputs do not work while normal key inputs do, and the first person player spawns more cards than expected which breaks card selection.",
+        "branch": "feature-shop-playerpawn",
+        "course": "designer",
+        "category": "Gameplay",
+        "issue_tag": "enhanced_input_not_working",
+        "duplicate": false
+    },
+    {
+        "ticket_id": "T1772959214",
+        "summary": "Dialogue/Subtitles",
+        "description": "Difficulty creating a subtitle system that handles random output from sound cues and dissatisfaction with the built-in subtitle system.",
+        "branch": "archetypes",
+        "course": "designer",
+        "category": "Audio",
+        "issue_tag": "subtitle_system_randomisation",
+        "duplicate": false
+    }
+]
