@@ -1,11 +1,14 @@
 # Discord Ticket Bot Dataset Analysis
 
+**Unit Name:** Tools and Production
+
+**Student Name:** Zoe Efstathiou  
+
+**Student ID:** 2423029 
+
+
 ## Introduction
 This report provides a quantitative analysis of issues reported via the Discord ticket bot. The analysis aims to identify the most common problems encountered by team members (designers and developers) to help prioritize support and improve workflows.
-
-## Data Limitations: Missing Dates
-**Limitation:** The provided dataset does not contain date information for the tickets. 
-Because weekly groupings cannot be accurately calculated from exact dates (as none exist in the data source), it is not possible to determine the "number of tickets per week". This graph has therefore been omitted from the analysis to ensure complete transparency and avoid presenting invented data.
 
 ## Data Categorisation Methodology
 The ticket data was categorised using the existing fields in the dataset:
@@ -56,7 +59,7 @@ The ticket data was categorised using the existing fields in the dataset:
 ### 4. Most Common Issues (by Issue Tag)
 ![Most Common Issues](most_common_issues.png)
 
-**Analysis:** This graph visualizes the distribution of specific `issue_tags`. While each individual issue tag only appeared once in this dataset sample, reviewing them reveals that version control operations—such as lock file fetch errors, branch upload confirmations, and Git LFS budget extensions—are the primary blockers. No single specific task stands out on its own purely by frequency, but the thematic grouping aligns perfectly with the heavy Git category concentration.
+**Analysis:** This graph visualizes the distribution of specific `issue_tags`. While each individual issue tag only appeared once in this dataset sample, reviewing them reveals that version control operations, such as lock file fetch errors, branch upload confirmations, and Git LFS budget extensions are the primary blockers. No single specific task stands out on its own purely by frequency, but the thematic grouping aligns perfectly with the heavy Git category concentration.
 
 ## Conclusion
 The analysis suggests that the team's primary roadblock is version control, specifically Git-related workflows and errors. Furthermore, the designer team encounters these issues at a significantly higher rate than developers. To reduce the volume of support tickets and improve productivity, it is recommended that the team establishes comprehensive Git guidelines or provides supplementary training tailored specifically to the designer workflow.
