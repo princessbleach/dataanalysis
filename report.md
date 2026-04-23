@@ -65,3 +65,7 @@ The ticket data was categorised using the existing fields in the dataset:
 The analysis suggests that the team's primary roadblock is version control, specifically Git-related workflows and errors. Furthermore, the designer team encounters these issues at a significantly higher rate than developers. To reduce the volume of support tickets and improve productivity, it is recommended that the team establishes comprehensive Git guidelines or provides supplementary training tailored specifically to the designer workflow.
 
 I did not supply any time or date data, therefore was unable to analyse issues per week etc. Going forward, using time-stamped data would be optimal. 
+
+### AI Declaration
+
+As specified in the task briefing, AI was used to generate graphics and report of data. Antigravity (Python Software Foundation, n.d.) and Matplotlib (Hunter, 2007).
